@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
+import Cocktails from "./components/cocktails";
 
 const app = () => {
   return (
     <main>
       <Navbar />
       <Hero />
-      <div className="h-dvh bg-black"></div>
+      <Cocktails />
     </main>
   );
 };
